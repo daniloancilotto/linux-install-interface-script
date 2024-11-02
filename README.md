@@ -1,4 +1,4 @@
-# Linux Install Desktop Script
+# Linux Install Interface Script
 
 ### Supported Environments
 - [Plasma - 6.2 (Base)](https://kde.org/plasma-desktop/)
@@ -24,7 +24,7 @@ sudo apt install curl -y
 
 ### Plasma - Ubuntu
 ```bash
-curl -H 'Cache-Control: no-cache' -sSL https://raw.githubusercontent.com/daniloancilotto/linux-install-desktop-script/master/plasma-ubuntu.sh | bash
+curl -H 'Cache-Control: no-cache' -sSL https://raw.githubusercontent.com/daniloancilotto/linux-install-interface-script/master/plasma-ubuntu.sh | bash
 ```
 
 <br/>

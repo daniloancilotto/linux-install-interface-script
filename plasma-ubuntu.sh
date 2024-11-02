@@ -4,7 +4,7 @@ system_release="`lsb_release -sr`"
 system_architecture="`uname -m`"
 environment="`plasmashell --version`"
 
-echo "INSTALL DESKTOP APPS (PLASMA - UBUNTU)"
+echo "INSTALL INTERFACE APPS (PLASMA - UBUNTU)"
 echo "Version: 2024.10.17-2310"
 echo "Author: Danilo Ancilotto"
 echo "Environment: $environment"

@@ -1,7 +1,7 @@
 # Linux Install Interface Script
 
 ### Supported Environments
-- [Plasma - 6.2 (Base)](https://kde.org/plasma-desktop/)
+- [Plasma - 6.4 (Base)](https://kde.org/plasma-desktop/)
 
 ### Supported Systems
 - [Ubuntu - 24.04 (Base)](https://ubuntu.com/download)

@@ -44,6 +44,8 @@ curl -H 'Cache-Control: no-cache' -sSL https://raw.githubusercontent.com/daniloa
 - Kate - Latest (Repository)
 - KColorChooser - Latest (Repository)
 - KDE Connect - Latest (Repository)
+  - Menu
+    - ~/.local/share/applications/org.kde.kdeconnect.sms.desktop
 - LibreOffice Plasma - Latest (Repository)
 - Partition Manager - Latest (Repository)
 - Seahorse - Latest (Repository)
@@ -63,3 +65,6 @@ curl -H 'Cache-Control: no-cache' -sSL https://raw.githubusercontent.com/daniloa
 - UserFeedback Console (Configuration Only)
   - Menu
     - ~/.local/share/applications/org.kde.kuserfeedback-console.desktop
+- Welcome Center (Configuration Only)
+  - Menu
+    - ~/.local/share/applications/org.kde.plasma-welcome.desktop

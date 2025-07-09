@@ -5,7 +5,7 @@ system_architecture="`uname -m`"
 environment="`plasmashell --version`"
 
 echo "INSTALL INTERFACE APPS (PLASMA - UBUNTU)"
-echo "Version: 2024.10.17-2310"
+echo "Version: 2025.07.09-1150"
 echo "Author: Danilo Ancilotto"
 echo "Environment: $environment"
 echo "System: $system"
@@ -129,7 +129,12 @@ printLine "KColorChooser"
 sudo apt install kcolorchooser -y
 
 printLine "KDE Connect"
+
 sudo apt install kdeconnect -y
+
+menuConf "$home_menu_dir" "org.kde.kdeconnect.sms.desktop" "NoDisplay" "true"
+
+echo "kdeconnect have been configured"
 
 printLine "LibreOffice Plasma"
 sudo apt install libreoffice-plasma -y
@@ -177,6 +182,10 @@ echo "krdpserver have been configured"
 printLine "UserFeedback Console"
 menuConf "$home_menu_dir" "org.kde.kuserfeedback-console.desktop" "NoDisplay" "true"
 echo "userfeedbackconsole have been configured"
+
+printLine "Welcome Center"
+menuConf "$home_menu_dir" "org.kde.plasma-welcome.desktop" "NoDisplay" "true"
+echo "plasma-welcome have been configured"
 
 printLine "Finished"
 echo "Please reboot your system."
